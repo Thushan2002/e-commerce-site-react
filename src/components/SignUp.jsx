@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 import auth_icon from "../assets/image/auth-image.png";
 
 const SignUp = () => {
