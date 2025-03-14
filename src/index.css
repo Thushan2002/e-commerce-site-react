@@ -359,6 +359,34 @@ ul {
     height: 410px;
 }
 
+/* error */
+.error {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 0 5%;
+    width: 100%;
+    width: 80%;
+    margin: 20% auto;
+    text-align: center;
+}
+
+.error h1 {
+    font-size: 10rem;
+    font-weight: 500;
+}
+
+.error .btn {
+    background-color: var(--color-primary);
+    width: 30%;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin: 10px auto;
+}
+
 /* footer */
 .footer {
     margin-top: 10rem;
