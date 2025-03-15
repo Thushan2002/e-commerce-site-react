@@ -3,6 +3,7 @@ import Header from "./Header";
 import Navbar from "./Navbar";
 import FlashSale from "./Flashsale";
 import Categories from "./Categories";
+import ThisMonth from "./ThisMonth";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <FlashSale />
       <Categories />
+      <ThisMonth />
     </div>
   );
 };
