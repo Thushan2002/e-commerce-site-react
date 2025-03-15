@@ -522,6 +522,34 @@ ul {
     border-radius: 5px;
 }
 
+/* categories */
+.categories {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.category {
+    text-align: center;
+    padding: 4rem 3rem;
+    border: 1px solid var(---color-white-2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.category:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white-2);
+    mix-blend-mode: multiply;
+}
+
+.category_icon {
+    width: 3.5rem;
+    height: auto;
+}
+
 /* footer */
 .footer {
     margin-top: 10rem;

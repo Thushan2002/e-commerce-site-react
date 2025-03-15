@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import FlashSale from "./Flashsale";
+import Categories from "./Categories";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar />
       <Header />
       <FlashSale />
+      <Categories />
     </div>
   );
 };
